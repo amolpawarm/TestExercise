@@ -19,6 +19,11 @@ Have used concordion as BDD tool to provide living documentation
 src/test/java --> Fixture files
 src/test/resources -- > Specification files
 
-**To run the test suite run Index.java (src/test/java) as jUnit test**
+**To run the test suite run src/test/javaIndex.java as junit test**
  
  HTML report will be displayed in the console - (file://C:\Users\USER\AppData\Local\Temp\concordion\demo\Index.html)
+ 
+ The webdriver test asssumes firefox installed on the machine. We can also run individual test indivifual fixtures -
+ 
+ 1. testTradeMeSandboxAPIFixture.java - API test 
+ 2. testTradeMeSandboxWebsiteFixture.java - Webdriver test
